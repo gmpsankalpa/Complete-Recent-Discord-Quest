@@ -59,6 +59,8 @@ How to use this script:
 
 You can track the progress by looking at the `Quest progress:` prints in the Console tab, or by reopening the Gift Inventory tab in settings. The progress should update every 30s.
 
+---
+
 ## FAQ
 
 ### Q: Ctrl + Shift + I doesn't work
