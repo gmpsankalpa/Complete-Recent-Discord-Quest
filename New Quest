@@ -1,4 +1,23 @@
-let wpRequire;
+# Complete Recent Discord Quest
+
+> [!Note]
+> This no longer works in browser!
+
+> [!Note]
+> This no longer works if you're alone in vc! Somebody else has to join you!
+
+How to use this script:
+
+1. Accept the quest under User Settings -> Gift Inventory
+2. Join a vc
+3. Join the same vc on an alt
+4. Stream any window (can be notepad or something)
+5. Press Ctrl+Shift+I to open DevTools
+6. Go to the Console tab
+7. Paste the following code and hit enter:
+
+    ```bash
+    let wpRequire;
 window.webpackChunkdiscord_app.push([[ Math.random() ], {}, (req) => { wpRequire = req; }]);
 
 let ApplicationStreamingStore, RunningGameStore, QuestsStore, ExperimentStore, FluxDispatcher, api
@@ -109,3 +128,10 @@ if(!isApp) {
 		console.log("Remember that you need at least 1 other person to be in the vc!")
 	}
 }
+
+7. Keep the stream running for 15 minutes
+8. You can now claim the reward in User Settings -> Gift Inventory!
+
+You can track the progress by looking at the `Quest progress:` prints in the Console tab, or by reopening the Gift Inventory tab in settings. The progress should update every 30s.
+
+---
